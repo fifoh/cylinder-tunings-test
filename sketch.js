@@ -839,9 +839,9 @@ function positionDurationSlider() {
 }
 
 function positionDropdownMenus() {
-  scalesDropdown.position(windowWidth / 2, windowHeight - 25);
-  instrumentDropdown.position(10, windowHeight - 25);
-  temperamentDropdown.position(15+instrumentDropdown.width, windowHeight - 25)
+  scalesDropdown.position(windowWidth / 2, windowHeight - 35);
+  instrumentDropdown.position(10, windowHeight - 35);
+  temperamentDropdown.position(windowWidth / 2, windowHeight - 10)
 }
 
 function calculateCylinderY() {
